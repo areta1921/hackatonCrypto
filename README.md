@@ -38,12 +38,12 @@ Clone down this repository. You will need node and npm installed globally on you
 
 Installation:
 
-npm install
+* npm install
 
 
 To Start Server:
 
-npm start
+* npm start
 
 To Visit App:
 ---
