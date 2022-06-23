@@ -1,15 +1,21 @@
-import React from "react";
+import React from 'react'
 import './Nav.css'
+import Link from '../Link/Link'
 
-function Nav() {
+
+export default function Nav(props) {
+
+    const links = [
+        { title: 'CoinBase', url: 'https://www.coinbase.com/' },
+        { title: 'CoinMarket', url: 'https://coinmarketcap.com/' },
+        { title: 'Celsius', url: 'https://celsius.network/' },
+      ];
+
   return (
-    <nav className="navbar">
-      <ul>
-        <li><span>Abr</span>aham</li>
-        <li>CRYPTO WORLD</li>
-      </ul>
+    <nav>
+        {links.map((lnk) => (
+           <Link lnk = {lnk} key = {lnk.title}/>
+        ))}
     </nav>
-  );
+  )
 }
-
-export default Nav;

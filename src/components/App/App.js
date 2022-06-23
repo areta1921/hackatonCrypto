@@ -3,6 +3,8 @@ import axios from "axios";
 import "./App.css";
 import Coin from "../Coin/Coin";
 import Nav from "../Nav/Nav";
+import Header from '../Header/Header'
+
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -30,7 +32,7 @@ function App() {
 
   return (
    <div>
-    <Nav />
+    <Header />
     <div className="coin-app">
       <div className="coin-search">
         <h1 className="coin-text">Search a currency</h1>
