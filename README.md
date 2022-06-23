@@ -1,4 +1,4 @@
-# **Crypto Price Tracker**
+# Crypto Price Tracker
 
 ## About The App
 
@@ -6,15 +6,17 @@
 
 This application allowed users to pull data from the Crypto API based on what they were interested in, such as price, marketCap and others... I started this process by using the create-react-app boilerplate.
 
+
+
 ---
 
 
 ## **Technologies**
 
 
-## [Heroku](https://dashboard.heroku.com/apps)
-## [React](https://reactjs.org/)
-## [Npm](https://www.npmjs.com/)
+* [Heroku](https://dashboard.heroku.com/apps)
+* [React](https://reactjs.org/)
+*  [Npm](https://www.npmjs.com/)
 
 ```react
 <div>
@@ -45,10 +47,10 @@ npm start
 
 To Visit App:
 ---
-## [git hub link](https://github.com/areta1921/hackatonCrypto.git)
+*  [git hub link](https://github.com/areta1921/hackatonCrypto.git)
 
 
-## [Heroku link](https://cryptohacks.herokuapp.com/)
+* [Heroku link](https://cryptohacks.herokuapp.com/)
 
 
 
